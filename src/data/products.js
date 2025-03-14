@@ -2,7 +2,7 @@ const products = [
   {
     id: 1,
     title: "Túi  1",
-    price: 109.95,
+    price: 50,
     description:
       "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
     category: "tote_bags",
@@ -15,7 +15,7 @@ const products = [
   {
     id: 2,
     title: "Túi  2",
-    price: 109.95,
+    price: 50,
     description:
       "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
     category: "tote_bags",
@@ -28,7 +28,7 @@ const products = [
   {
     id: 3,
     title: "Túi  3",
-    price: 109.95,
+    price: 50,
     description:
       "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
     category: "tote_bags",
@@ -41,7 +41,7 @@ const products = [
   {
     id: 4,
     title: "Túi  4",
-    price: 109.95,
+    price: 50,
     description:
       "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
     category: "tote_bags",
@@ -54,7 +54,7 @@ const products = [
   {
     id: 5,
     title: "Sổ 1",
-    price: 109.95,
+    price: 50,
     description:
       "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
     category: "notebooks",
@@ -67,7 +67,7 @@ const products = [
   {
     id: 6,
     title: "Sổ 2",
-    price: 109.95,
+    price: 50,
     description:
       "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
     category: "notebooks",
@@ -80,7 +80,7 @@ const products = [
   {
     id: 7,
     title: "Sổ 3",
-    price: 109.95,
+    price: 50,
     description:
       "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
     category: "notebooks",
@@ -93,7 +93,7 @@ const products = [
   {
     id: 8,
     title: "Sổ 4",
-    price: 109.95,
+    price: 50,
     description:
       "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
     category: "notebooks",
@@ -106,7 +106,7 @@ const products = [
   {
     id: 9,
     title: "Bản sao của FPT",
-    price: 109.95,
+    price: 50,
     description:
       "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
     category: "stickers",
@@ -120,7 +120,7 @@ const products = [
   {
     id: 10,
     title: "Sticker 1",
-    price: 109.95,
+    price: 50,
     description:
       "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
     category: "stickers",
@@ -133,7 +133,7 @@ const products = [
   {
     id: 11,
     title: "Sticker 2",
-    price: 109.95,
+    price: 50,
     description:
       "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
     category: "stickers",
@@ -146,7 +146,7 @@ const products = [
   {
     id: 12,
     title: "Sticker 3",
-    price: 109.95,
+    price: 50,
     description:
       "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
     category: "stickers",

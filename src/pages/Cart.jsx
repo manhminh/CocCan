@@ -70,7 +70,7 @@ const Cart = () => {
                         <div className="ms-3">
                           <h6 className="mb-0">{item.title}</h6>
                           <small className="text-muted">
-                            {item.qty} x ${item.price}
+                            {item.qty} x {item.price} VND
                           </small>
                         </div>
                       </div>
@@ -105,15 +105,15 @@ const Cart = () => {
                   <ul className="list-group list-group-flush mb-3">
                     <li className="list-group-item d-flex justify-content-between align-items-center">
                       Sản phẩm ({totalItems})
-                      <span>${Math.round(subtotal)}</span>
+                      <span>{Math.round(subtotal)} VND</span>
                     </li>
                     <li className="list-group-item d-flex justify-content-between align-items-center">
                       Shipping
-                      <span>${shipping}</span>
+                      <span>{shipping} VND</span>
                     </li>
                     <li className="list-group-item d-flex justify-content-between align-items-center fw-bold">
                       Thành tiền
-                      <span>${totalAmount}</span>
+                      <span>{totalAmount} VND</span>
                     </li>
                   </ul>
                   <Link to="/checkout" className="btn btn-dark btn-lg w-100">

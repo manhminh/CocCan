@@ -53,7 +53,7 @@ const Checkout = () => {
       shipping_method: "Giao hàng nhanh",
       customer_note: "Không có ghi chú",
       payment_method: "Chuyển khoản ngân hàng",
-      total_amount: `$${totalAmount.toFixed(2)}`,
+      total_amount: `${totalAmount.toFixed(2)} VND`,
       ...itemParams, // ✅ Spread dynamic item data into templateParams
     };
 
@@ -108,15 +108,15 @@ const Checkout = () => {
                 <ul className="list-group list-group-flush">
                   <li className="list-group-item d-flex justify-content-between align-items-center">
                     Sản phẩm ({state.length})
-                    <span>${Math.round(subtotal)}</span>
+                    <span>{Math.round(subtotal)} VND</span>
                   </li>
                   <li className="list-group-item d-flex justify-content-between align-items-center">
                     Phí vận chuyển
-                    <span>${shipping}</span>
+                    <span>{shipping} VND</span>
                   </li>
                   <li className="list-group-item d-flex justify-content-between align-items-center font-weight-bold">
                     Tổng cộng
-                    <span>${totalAmount}</span>
+                    <span>{totalAmount} VND</span>
                   </li>
                 </ul>
               </div>

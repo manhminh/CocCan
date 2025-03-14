@@ -94,7 +94,7 @@ const Product = () => {
                 {product.rating && product.rating.rate}{" "}
                 <i className="fa fa-star"></i>
               </p>
-              <h3 className="display-6  my-4">${product.price}</h3>
+              <h3 className="display-6  my-4">{product.price} VND</h3>
               <p className="lead">{product.description}</p>
               <button
                 className="btn btn-outline-dark"
@@ -156,7 +156,7 @@ const Product = () => {
                     </h5>
                   </div>
                   {/* <ul className="list-group list-group-flush">
-                    <li className="list-group-item lead">${product.price}</li>
+                    <li className="list-group-item lead">{product.price}</li>
                   </ul> */}
                   <div className="card-body">
                     <Link
